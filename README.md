@@ -13,10 +13,11 @@
 - Ouvrez un terminal depuis le dossier fancy_tools
 - Faite un ls et vous verez qu'il y a un dossier bin, le fichier install.sh et le fancy_functions.sh.
 - Dans le terminal executer le install.sh. 
-  - en cas ou sa n'execute pas, donner le droit d'execution 'chmod +x install.sh'
-- Quand vous l' executerez il va afficher des message pour vous dire si le fichier est present ou pas.
+  - en cas ou sa n'execute pas, donner le droit d'execution 'chmod u+x install.sh'
+- Quand vous l' executerez il va afficher des message pour vous dire si les fichiers concerner sont present ou pas.
 - Il va creer un dossier ~src daans laquelle vous retrouverez les fichiers du projet.
-- Apres que l'installation est completer essayer eu alias par exemple 'gss' pour 'git status'.
+- il fera un dossier bin aussi.
+- Apres que l'installation est completer essayer un alias par exemple 'gss' pour 'git status'.
 - si vous n'etre pas dans un projet git il vous dira que '!!vous est pas dans un projet git!!'
 
 ##avantage
