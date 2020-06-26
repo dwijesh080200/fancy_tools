@@ -57,3 +57,9 @@ else
 	git clone --single-branch --branch master https://github.com/diksha002/fancy_tools.git ~/src/fancy_tools
 	echo "le clone a etait fait dans fancy_tools in ~/src avec succes"
 fi
+
+# pour copier le updateFancyTools
+cp ~/src/fancy_tools/bin/updateFancyTools ~/bin
+#donner le droit d'execution au fichier pour eviter des problemes en installation
+chmod +x ~/bin/updateFancyTools
+
