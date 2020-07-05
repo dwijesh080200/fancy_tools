@@ -54,7 +54,7 @@ if [[ -d ~/src/fancy_tools ]]
 then
 	echo "fancy_tools est deja dans le folder src"
 else
-	git clone --single-branch --branch master https://github.com/diksha002/fancy_tools.git ~/src/fancy_tools
+	git clone --single-branch --branch master https://github.com/dwijesh080200/fancy_tools.git ~/src/fancy_tools
 	echo "le clone a etait fait dans fancy_tools in ~/src avec succes"
 fi
 
